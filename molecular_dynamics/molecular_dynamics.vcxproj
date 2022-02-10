@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="linalg.cpp" />
     <ClCompile Include="simulation.cpp" />
     <ClCompile Include="molecular_dynamics.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="linalg.h" />
     <ClInclude Include="simulation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
